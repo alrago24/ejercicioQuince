@@ -6,7 +6,7 @@ public class App {
         String clave;
         System.out.println("Por favor ingresa tu nombre de usuario: ");
         nombreCliente = sc.nextLine();
-        System.out.println("Por favor ingresar: ");
+        System.out.println("Por favor ingresar tu clave personal: ");
         clave = sc.nextLine();
         if (nombreCliente.equals("admin") && clave.equals("clave123")) {
             System.out.println("Bienvenido");
